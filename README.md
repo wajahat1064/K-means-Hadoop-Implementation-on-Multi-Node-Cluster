@@ -37,8 +37,11 @@ it would not take incredibly long to create a graph (plus the points are already
 # How to use: 
 
 When in the code folder directory, you can do the following:
+
 Simple mapreduce: cat airbnb_edited.txt | python mapper_wdb.py | python reducer_wdb.py
+
 Graph mapreduce: cat airbnb_edited.txt | python mapper_wdb.py | python reducer_for_graphing_wdb.py
+
 Graph creation: (NOTE: You may need to enter this in the terminal first: python -m pip install matplotlib)
 	Beginning: cat k_means_output/beginning.txt | python grapher_wdb.py
 	Iteration i (replace i with an iteration number): cat k_means_output/output_i.txt | python grapher_wdb.py
