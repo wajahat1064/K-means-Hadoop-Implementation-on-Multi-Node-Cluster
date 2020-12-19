@@ -15,10 +15,9 @@ and creates a scatter plot. Can plot every n-th point in each cluster to save ti
 cluster is given a unique color, brightened for the cluster and darkened for the 
 corresponding centroid.
 
-# k_means_output: the folder created by reducer_for_graphing_wdb.py, which contains txt files
-listing the centroids and points of each cluster, with a delimiter line in-between each group of points.
-This can be deleted, as reducer_for_graphing already deletes the file if it exists and creates a new one.
-It was left in in case you wanted to look at the data.
+# K_means_output: 
+The folder created by reducer_for_graphing_wdb.py, which contains txt files listing the centroids 
+and points of each cluster, with a delimiter line in-between each group of points.
 
 # centroids.txt: 
 A text file that contains randomly chosen centroids. If you wish, you can add/subtract centroids
